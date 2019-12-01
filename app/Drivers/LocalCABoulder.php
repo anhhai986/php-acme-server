@@ -5,7 +5,7 @@ namespace App\Drivers;
 /**
  * A transporter driver from LetsEncrypt 
  */
-class LocalCABoulder extends AbstractBoulder
+class LocalCABoulder extends AbstractBoulder implements BoulderInterface
 {
     /**
      * @inheritDoc
